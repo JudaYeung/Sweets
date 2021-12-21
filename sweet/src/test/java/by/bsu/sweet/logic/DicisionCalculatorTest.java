@@ -11,7 +11,7 @@ public class DicisionCalculatorTest {
     public  void testPrice(){
         Division division = new Division();
         GingerbreadMan gingerbreadMan  = new GingerbreadMan("T1",20,50,"87");
-        Darkchocolate darkchocolate = new Darkchocolate("T2",30,80,"1");
+        Darkchocolate darkchocolate = new Darkchocolate("T2",30,100,"1");
         division.add(gingerbreadMan);
         division.add(darkchocolate);
         DivisionCalculator calculator = new DivisionCalculator();
